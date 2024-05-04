@@ -1,0 +1,12 @@
+
+create table FoodSales
+(
+sale_id int primary key identity(1,1),
+food_id int ,
+customer_name varchar(50),
+item_name varchar(50),
+item_category varchar(50),
+item_price varchar(50),
+sale_quantity int,
+sale_amount bigint,
+)

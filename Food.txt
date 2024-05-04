@@ -1,0 +1,8 @@
+create table FoodItems(
+food_id int primary key identity(1,1),
+name varchar(50) not null,
+category varchar(50) not null,
+price int not null,
+quatity int not null,
+total_price bigint not null
+)

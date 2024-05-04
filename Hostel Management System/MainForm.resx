@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="UserNamelb.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Yi Baiti, 18pt</value>
+  </data>
+  <data name="UserNamelb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 109</value>
+  </data>
+  <data name="UserNamelb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UserNamelb.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="UserNamelb.Text" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="&gt;&gt;UserNamelb.Name" xml:space="preserve">
+    <value>UserNamelb</value>
+  </data>
+  <data name="&gt;&gt;UserNamelb.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;UserNamelb.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;UserNamelb.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2CirclePictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="guna2CirclePictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 83</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="guna2CirclePictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="guna2CirclePictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;guna2CirclePictureBox1.Name" xml:space="preserve">
+    <value>guna2CirclePictureBox1</value>
+  </data>
+  <data name="&gt;&gt;guna2CirclePictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2CirclePictureBox1.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;guna2CirclePictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FoodItemPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="FoodItemBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="FoodItemBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="FoodItemBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 38</value>
+  </data>
+  <data name="FoodItemBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="FoodItemBtn.Text" xml:space="preserve">
+    <value>Food       </value>
+  </data>
+  <data name="&gt;&gt;FoodItemBtn.Name" xml:space="preserve">
+    <value>FoodItemBtn</value>
+  </data>
+  <data name="&gt;&gt;FoodItemBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;FoodItemBtn.Parent" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodItemBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FoodAddForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="FoodAddForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 47</value>
+  </data>
+  <data name="FoodAddForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="FoodAddForm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="FoodAddForm.Text" xml:space="preserve">
+    <value>   Add   </value>
+  </data>
+  <data name="&gt;&gt;FoodAddForm.Name" xml:space="preserve">
+    <value>FoodAddForm</value>
+  </data>
+  <data name="&gt;&gt;FoodAddForm.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;FoodAddForm.Parent" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodAddForm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FoodViewForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="FoodViewForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 88</value>
+  </data>
+  <data name="FoodViewForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="FoodViewForm.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="FoodViewForm.Text" xml:space="preserve">
+    <value>View  </value>
+  </data>
+  <data name="&gt;&gt;FoodViewForm.Name" xml:space="preserve">
+    <value>FoodViewForm</value>
+  </data>
+  <data name="&gt;&gt;FoodViewForm.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;FoodViewForm.Parent" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodViewForm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FoodEditForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="FoodEditForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 129</value>
+  </data>
+  <data name="FoodEditForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="FoodEditForm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="FoodEditForm.Text" xml:space="preserve">
+    <value>Edit  </value>
+  </data>
+  <data name="&gt;&gt;FoodEditForm.Name" xml:space="preserve">
+    <value>FoodEditForm</value>
+  </data>
+  <data name="&gt;&gt;FoodEditForm.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;FoodEditForm.Parent" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodEditForm.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FoodDeleteForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="FoodDeleteForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 170</value>
+  </data>
+  <data name="FoodDeleteForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="FoodDeleteForm.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="FoodDeleteForm.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;FoodDeleteForm.Name" xml:space="preserve">
+    <value>FoodDeleteForm</value>
+  </data>
+  <data name="&gt;&gt;FoodDeleteForm.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;FoodDeleteForm.Parent" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodDeleteForm.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FoodItemPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="FoodItemPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 411</value>
+  </data>
+  <data name="FoodItemPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 45</value>
+  </data>
+  <data name="FoodItemPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FoodItemPanel.Name" xml:space="preserve">
+    <value>FoodItemPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodItemPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FoodItemPanel.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;FoodItemPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UserSettingBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="UserSettingBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 568</value>
+  </data>
+  <data name="UserSettingBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 35</value>
+  </data>
+  <data name="UserSettingBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="UserSettingBtn.Text" xml:space="preserve">
+    <value>Setting     </value>
+  </data>
+  <data name="&gt;&gt;UserSettingBtn.Name" xml:space="preserve">
+    <value>UserSettingBtn</value>
+  </data>
+  <data name="&gt;&gt;UserSettingBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;UserSettingBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;UserSettingBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LogOutBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="LogOutBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 609</value>
+  </data>
+  <data name="LogOutBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 35</value>
+  </data>
+  <data name="LogOutBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LogOutBtn.Text" xml:space="preserve">
+    <value>Log Out       </value>
+  </data>
+  <data name="&gt;&gt;LogOutBtn.Name" xml:space="preserve">
+    <value>LogOutBtn</value>
+  </data>
+  <data name="&gt;&gt;LogOutBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;LogOutBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;LogOutBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EmployeeCrudPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="EmployeeBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="EmployeeBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 35</value>
+  </data>
+  <data name="EmployeeBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="EmployeeBtn.Text" xml:space="preserve">
+    <value>Employee  </value>
+  </data>
+  <data name="&gt;&gt;EmployeeBtn.Name" xml:space="preserve">
+    <value>EmployeeBtn</value>
+  </data>
+  <data name="&gt;&gt;EmployeeBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeBtn.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EmployeeAddBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeAddBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 44</value>
+  </data>
+  <data name="EmployeeAddBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="EmployeeAddBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="EmployeeAddBtn.Text" xml:space="preserve">
+    <value>   Add   </value>
+  </data>
+  <data name="&gt;&gt;EmployeeAddBtn.Name" xml:space="preserve">
+    <value>EmployeeAddBtn</value>
+  </data>
+  <data name="&gt;&gt;EmployeeAddBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeAddBtn.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeAddBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EmployeeViewBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeViewBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 85</value>
+  </data>
+  <data name="EmployeeViewBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="EmployeeViewBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="EmployeeViewBtn.Text" xml:space="preserve">
+    <value>View  </value>
+  </data>
+  <data name="&gt;&gt;EmployeeViewBtn.Name" xml:space="preserve">
+    <value>EmployeeViewBtn</value>
+  </data>
+  <data name="&gt;&gt;EmployeeViewBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeViewBtn.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeViewBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EmployeeEditBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeEditBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 126</value>
+  </data>
+  <data name="EmployeeEditBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="EmployeeEditBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EmployeeEditBtn.Text" xml:space="preserve">
+    <value>Edit  </value>
+  </data>
+  <data name="&gt;&gt;EmployeeEditBtn.Name" xml:space="preserve">
+    <value>EmployeeEditBtn</value>
+  </data>
+  <data name="&gt;&gt;EmployeeEditBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeEditBtn.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeEditBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EmployeeDeleteBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeDeleteBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 167</value>
+  </data>
+  <data name="EmployeeDeleteBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="EmployeeDeleteBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="EmployeeDeleteBtn.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;EmployeeDeleteBtn.Name" xml:space="preserve">
+    <value>EmployeeDeleteBtn</value>
+  </data>
+  <data name="&gt;&gt;EmployeeDeleteBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeDeleteBtn.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeDeleteBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EmployeeSalaryForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="EmployeeSalaryForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 208</value>
+  </data>
+  <data name="EmployeeSalaryForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="EmployeeSalaryForm.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="EmployeeSalaryForm.Text" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="&gt;&gt;EmployeeSalaryForm.Name" xml:space="preserve">
+    <value>EmployeeSalaryForm</value>
+  </data>
+  <data name="&gt;&gt;EmployeeSalaryForm.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;EmployeeSalaryForm.Parent" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeSalaryForm.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EmployeeCrudPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="EmployeeCrudPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 351</value>
+  </data>
+  <data name="EmployeeCrudPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 44</value>
+  </data>
+  <data name="EmployeeCrudPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;EmployeeCrudPanel.Name" xml:space="preserve">
+    <value>EmployeeCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeCrudPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmployeeCrudPanel.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;EmployeeCrudPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RoomBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="RoomBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 295</value>
+  </data>
+  <data name="RoomBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 35</value>
+  </data>
+  <data name="RoomBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RoomBtn.Text" xml:space="preserve">
+    <value>Rooms       </value>
+  </data>
+  <data name="&gt;&gt;RoomBtn.Name" xml:space="preserve">
+    <value>RoomBtn</value>
+  </data>
+  <data name="&gt;&gt;RoomBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;RoomBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;RoomBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BookingCrudPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="BookingBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="BookingBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 3</value>
+  </data>
+  <data name="BookingBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 35</value>
+  </data>
+  <data name="BookingBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BookingBtn.Text" xml:space="preserve">
+    <value>Booking      </value>
+  </data>
+  <data name="&gt;&gt;BookingBtn.Name" xml:space="preserve">
+    <value>BookingBtn</value>
+  </data>
+  <data name="&gt;&gt;BookingBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;BookingBtn.Parent" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BookingAddBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="BookingAddBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 44</value>
+  </data>
+  <data name="BookingAddBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="BookingAddBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BookingAddBtn.Text" xml:space="preserve">
+    <value>   Add   </value>
+  </data>
+  <data name="&gt;&gt;BookingAddBtn.Name" xml:space="preserve">
+    <value>BookingAddBtn</value>
+  </data>
+  <data name="&gt;&gt;BookingAddBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;BookingAddBtn.Parent" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingAddBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BookingViewBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="BookingViewBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 85</value>
+  </data>
+  <data name="BookingViewBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="BookingViewBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BookingViewBtn.Text" xml:space="preserve">
+    <value>View  </value>
+  </data>
+  <data name="&gt;&gt;BookingViewBtn.Name" xml:space="preserve">
+    <value>BookingViewBtn</value>
+  </data>
+  <data name="&gt;&gt;BookingViewBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;BookingViewBtn.Parent" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingViewBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BookingEditBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="BookingEditBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 126</value>
+  </data>
+  <data name="BookingEditBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="BookingEditBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BookingEditBtn.Text" xml:space="preserve">
+    <value>Edit  </value>
+  </data>
+  <data name="&gt;&gt;BookingEditBtn.Name" xml:space="preserve">
+    <value>BookingEditBtn</value>
+  </data>
+  <data name="&gt;&gt;BookingEditBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;BookingEditBtn.Parent" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingEditBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BookingDeleteBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="BookingDeleteBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 167</value>
+  </data>
+  <data name="BookingDeleteBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="BookingDeleteBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BookingDeleteBtn.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;BookingDeleteBtn.Name" xml:space="preserve">
+    <value>BookingDeleteBtn</value>
+  </data>
+  <data name="&gt;&gt;BookingDeleteBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;BookingDeleteBtn.Parent" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingDeleteBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BookingCrudPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="BookingCrudPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 234</value>
+  </data>
+  <data name="BookingCrudPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 42</value>
+  </data>
+  <data name="BookingCrudPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Name" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="DashBoardBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 14.25pt</value>
+  </data>
+  <data name="DashBoardBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 177</value>
+  </data>
+  <data name="DashBoardBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 35</value>
+  </data>
+  <data name="DashBoardBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DashBoardBtn.Text" xml:space="preserve">
+    <value>DashBoard</value>
+  </data>
+  <data name="&gt;&gt;DashBoardBtn.Name" xml:space="preserve">
+    <value>DashBoardBtn</value>
+  </data>
+  <data name="&gt;&gt;DashBoardBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;DashBoardBtn.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;DashBoardBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="MenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-9, 29</value>
+  </data>
+  <data name="MenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 800</value>
+  </data>
+  <data name="MenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Name" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 685</value>
+  </data>
+  <data name="MainBoxPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 39</value>
+  </data>
+  <data name="MainBoxPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1150, 720</value>
+  </data>
+  <data name="MainBoxPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MainBoxPanel.Name" xml:space="preserve">
+    <value>MainBoxPanel</value>
+  </data>
+  <data name="&gt;&gt;MainBoxPanel.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CustomGradientPanel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;MainBoxPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainBoxPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CLoseBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="CLoseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="CLoseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1260, 6</value>
+  </data>
+  <data name="CLoseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="CLoseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;CLoseBtn.Name" xml:space="preserve">
+    <value>CLoseBtn</value>
+  </data>
+  <data name="&gt;&gt;CLoseBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2CircleButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;CLoseBtn.Parent" xml:space="preserve">
+    <value>guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;CLoseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="guna2HtmlLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 9.75pt</value>
+  </data>
+  <data name="guna2HtmlLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 10</value>
+  </data>
+  <data name="guna2HtmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="guna2HtmlLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="guna2HtmlLabel1.Text" xml:space="preserve">
+    <value>Hotel Management System</value>
+  </data>
+  <data name="&gt;&gt;guna2HtmlLabel1.Name" xml:space="preserve">
+    <value>guna2HtmlLabel1</value>
+  </data>
+  <data name="&gt;&gt;guna2HtmlLabel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2HtmlLabel1.Parent" xml:space="preserve">
+    <value>guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;guna2HtmlLabel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuBarBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="menuBarBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="menuBarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="menuBarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="menuBarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuBarBtn.Name" xml:space="preserve">
+    <value>menuBarBtn</value>
+  </data>
+  <data name="&gt;&gt;menuBarBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;menuBarBtn.Parent" xml:space="preserve">
+    <value>guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;menuBarBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="guna2GradientPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-9, 0</value>
+  </data>
+  <data name="guna2GradientPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 33</value>
+  </data>
+  <data name="guna2GradientPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel1.Name" xml:space="preserve">
+    <value>guna2GradientPanel1</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;guna2GradientPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Hotel Management System</value>
+  </data>
+  <data name="&gt;&gt;guna2BorderlessForm1.Name" xml:space="preserve">
+    <value>guna2BorderlessForm1</value>
+  </data>
+  <data name="&gt;&gt;guna2BorderlessForm1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2BorderlessForm, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckMaximumAndMinimum.Name" xml:space="preserve">
+    <value>CheckMaximumAndMinimum</value>
+  </data>
+  <data name="&gt;&gt;CheckMaximumAndMinimum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="menuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 17</value>
+  </metadata>
+  <metadata name="CheckMaximumAndMinimum.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>294, 17</value>
+  </metadata>
+</root>

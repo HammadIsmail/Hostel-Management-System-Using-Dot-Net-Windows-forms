@@ -1,0 +1,14 @@
+
+create Table Bookings
+(
+booking_id int primary key identity(1,1),
+name varchar(50) not null,
+cnic bigint not null,
+contact bigint not null,
+payment bigint not null,
+gender varchar(10) not null,
+RoomType varchar(10) not null,
+facility varchar(10) not null,
+room_no int not null,
+booking_date Date not null,
+)

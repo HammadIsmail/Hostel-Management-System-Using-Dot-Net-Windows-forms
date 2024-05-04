@@ -1,0 +1,8 @@
+Create Table Rooms
+(
+room_id int primary key identity(1,1),
+room_no int not null,
+status varchar(15),
+booking_id int
+)
+select * from Rooms;
