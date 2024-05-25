@@ -1,5 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -15,6 +16,38 @@ namespace Hostel_Management_System.Data_Layer
     internal class MBookingCRUD
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
+
+        public DeleteBookingForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public AddBookingForm CompositioN
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public ViewBookingForm ComosiTion
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public EditBookingForm CoMposition
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public static void getRoomNo(Guna2ComboBox RoomNo)
         {
@@ -60,7 +93,7 @@ namespace Hostel_Management_System.Data_Layer
             string query = "";
             con.Open();
 
-            query = $"SELECT name as Name,cnic as CNIC,contact as Contact,gender as Gender,payment as Payment,booking_date as BookedDate,Rooms.room_no as RoomNo,Rooms.status as Status FROM Bookings inner join Rooms on Bookings.booking_id=Rooms.booking_id where  Rooms.status='Booked';";
+            query = $"select * from BookingView;";
 
 
 
@@ -110,7 +143,7 @@ namespace Hostel_Management_System.Data_Layer
             con.Open();
             if (!long.TryParse(Name.Text, out long intName))
             {
-                query = $"SELECT name as Name,cnic as CNIC,contact as Contact,gender as Gender,payment as Payment,booking_date as BookedDate,Rooms.room_no as RoomNo,Rooms.status as Status FROM Bookings inner join Rooms on Bookings.booking_id=Rooms.booking_id where name='{Name.Text} AND Rooms.status='Booked';";
+                query = $"SELECT name as Name,cnic as CNIC,contact as Contact,gender as Gender,payment as Payment,booking_date as BookedDate,Rooms.room_no as RoomNo,Rooms.status as Status FROM Bookings inner join Rooms on Bookings.booking_id=Rooms.booking_id where name='{Name.Text}' AND Rooms.status='Booked';";
             }
             else
             {
@@ -159,7 +192,8 @@ namespace Hostel_Management_System.Data_Layer
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
-            string id = $"select booking_id from Bookings where name ='{name}' AND cnic={cnic} AND contact='{contact}'";
+            string id = $"execute FindKeyForBooking '{name}',{ cnic},{ contact}";
+            ;
             SqlCommand checkId = new SqlCommand(id, con);
             int key = (int)checkId.ExecuteScalar();
             con.Close();

@@ -1,5 +1,6 @@
 ﻿using ComponentFactory.Krypton.Toolkit;
 using Guna.UI2.WinForms;
+using Hostel_Management_System.Data_Layer;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -12,6 +13,13 @@ namespace Hostel_Management_System.Business_Layer
 {
     internal class Validations
     {
+        internal MUserCRUD Association
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public static bool InputField(KryptonLabel usernameErrorLb, KryptonLabel passwordErrorLb,KryptonTextBox UsernameTxt, KryptonTextBox PasswordTxt)
         {
@@ -28,10 +36,23 @@ namespace Hostel_Management_System.Business_Layer
                 passwordErrorLb.Text = "Please fill this out !";
                 return false;
             }
-           
+    
+          
 
 
+            return true;
+        }
 
+        public static bool ValidUserName(KryptonTextBox UsernameTxt, KryptonLabel usernameErrorLb)
+        {
+            string name = UsernameTxt.Text;
+            int Count = MUserCRUD.CheckUserName(name);
+            if (Count > 0)
+            {
+                usernameErrorLb.Text = "UserName is Already Taken !";
+
+                return false;
+            }
             return true;
         }
 
@@ -93,6 +114,25 @@ namespace Hostel_Management_System.Business_Layer
                 return false;
             }
        
+            return true;
+        }
+
+        public static bool User(Guna2TextBox Name, Guna2HtmlLabel NameErrorlb, Guna2TextBox Password, Guna2HtmlLabel PasswordErrorlb)
+        {
+            if (string.IsNullOrEmpty(Name.Text.Trim()))
+            {
+                NameErrorlb.Text = "Please fill this out !";
+
+                return false;
+            }
+
+
+            if (string.IsNullOrEmpty(Password.Text.Trim()))
+            {
+                PasswordErrorlb.Text = "Please fill this out !";
+                return false;
+            }
+        
             return true;
         }
 

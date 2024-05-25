@@ -1,5 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Hostel_Management_System.Data_Layer
 {
@@ -19,6 +21,14 @@ namespace Hostel_Management_System.Data_Layer
     internal class MUserCRUD
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
+
+        public SignUpForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public static SignInResult SignIn(string name, string password)
         {
@@ -38,12 +48,31 @@ namespace Hostel_Management_System.Data_Layer
             con.Close();
             return result;
         }
+        public static int CheckUserName(string name)
+        {
+            SqlConnection con = new SqlConnection(connection);
+
+            con.Open();
+
+
+            string query = $"Select Count(*) from Credentials where username='{name}'";
+
+            //execute query
+            SqlCommand cmd = new SqlCommand(query, con);
+            int count = (int)cmd.ExecuteScalar() ;
+            //close connection
+
+            con.Close();
+            return count;
+        }
 
         public static void SignUp(string name, string password)
         {
             SqlConnection con = new SqlConnection(connection);
 
             con.Open();
+           
+
 
             string query = $"INSERT INTO Credentials (username, password,role,status) VALUES('{name}','{password}','Customer',{0})";
 
@@ -61,7 +90,7 @@ namespace Hostel_Management_System.Data_Layer
             SqlConnection con = new SqlConnection(connection);
             con.Open();
 
-            string query = $"SELECT username AS UserName, password AS Password,role as Role,status as Status FROM Credentials";
+            string query = $"select * from UsersView;";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
 
@@ -87,7 +116,7 @@ namespace Hostel_Management_System.Data_Layer
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
-            string id = $"select user_id from Credentials where username ='{name}' AND password='{password}' AND role='{role}' AND status={status}";
+            string id = $"execute FindKeyForCredentials '{name}','{password}','{role}',{status};";
             SqlCommand checkId = new SqlCommand(id, con);
             int key = (int)checkId.ExecuteScalar();
             con.Close();
@@ -131,11 +160,11 @@ namespace Hostel_Management_System.Data_Layer
             con.Close();
         }
 
-        public static void EditUser(Guna2TextBox status, Guna2ComboBox Role,int id)
+        public static void EditUser(Guna2TextBox Name,Guna2TextBox Password, Guna2ComboBox status, Guna2ComboBox Role,int id)
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
-            string query = $"Update Credentials set role='{Role.Text}',status={int.Parse(status.Text)} where user_id={id}";
+            string query = $"Update Credentials set username='{Name.Text}',password='{Password.Text}' ,role='{Role.Text}',status={int.Parse(status.Text)} where user_id={id}";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
             con.Close();

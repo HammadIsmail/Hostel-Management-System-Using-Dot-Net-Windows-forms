@@ -10,6 +10,14 @@ namespace Hostel_Management_System.Business_Layer
 {
     internal class BookingValidations
     {
+        internal Data_Layer.MBookingCRUD Association
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static bool book(Guna2TextBox Name, Guna2TextBox CNIC, Guna2TextBox Contact, Guna2TextBox Payment, Guna2HtmlLabel NameErrorlb, Guna2HtmlLabel CNICErrorlb, Guna2HtmlLabel ContactErrorlb, Guna2HtmlLabel PaymentErrorlb)
         {
             if (string.IsNullOrEmpty(Name.Text.Trim()))

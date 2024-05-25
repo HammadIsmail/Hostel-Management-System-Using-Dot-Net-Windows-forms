@@ -9,6 +9,14 @@ namespace Hostel_Management_System.Business_Layer
 {
     internal class FoodValidations
     {
+        internal Data_Layer.MFoodItemCRUD Association
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static bool Food(Guna2TextBox Name, Guna2TextBox Category, Guna2TextBox Price, Guna2TextBox Quantity, Guna2HtmlLabel NameErrorlb, Guna2HtmlLabel CategoryErrorlb, Guna2HtmlLabel PriceErrorlb, Guna2HtmlLabel QuantityErrorlb)
         {
             if (string.IsNullOrEmpty(Name.Text.Trim()))

@@ -117,65 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;FoodItemBtn.Name" xml:space="preserve">
-    <value>FoodItemBtn</value>
-  </data>
-  <data name="&gt;&gt;FoodItemBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;FoodItemBtn.Parent" xml:space="preserve">
-    <value>MenuPanel</value>
-  </data>
-  <data name="&gt;&gt;FoodItemBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LogOutBtn.Name" xml:space="preserve">
-    <value>LogOutBtn</value>
-  </data>
-  <data name="&gt;&gt;LogOutBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;LogOutBtn.Parent" xml:space="preserve">
-    <value>MenuPanel</value>
-  </data>
-  <data name="&gt;&gt;LogOutBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Name" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Parent" xml:space="preserve">
-    <value>MenuPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="MenuPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-9, 29</value>
-  </data>
-  <data name="MenuPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>213, 800</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;MenuPanel.Name" xml:space="preserve">
-    <value>MenuPanel</value>
-  </data>
-  <data name="&gt;&gt;MenuPanel.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;MenuPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MenuPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="FoodItemBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 14.25pt</value>
   </data>
@@ -185,6 +127,7 @@
   <data name="FoodItemBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 38</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FoodItemBtn.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -233,90 +176,6 @@
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BookingCrudPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;BookingBtn.Name" xml:space="preserve">
-    <value>BookingBtn</value>
-  </data>
-  <data name="&gt;&gt;BookingBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;BookingBtn.Parent" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BookingAddBtn.Name" xml:space="preserve">
-    <value>BookingAddBtn</value>
-  </data>
-  <data name="&gt;&gt;BookingAddBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;BookingAddBtn.Parent" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingAddBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BookingViewBtn.Name" xml:space="preserve">
-    <value>BookingViewBtn</value>
-  </data>
-  <data name="&gt;&gt;BookingViewBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;BookingViewBtn.Parent" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingViewBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BookingEditBtn.Name" xml:space="preserve">
-    <value>BookingEditBtn</value>
-  </data>
-  <data name="&gt;&gt;BookingEditBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;BookingEditBtn.Parent" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingEditBtn.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BookingDeleteBtn.Name" xml:space="preserve">
-    <value>BookingDeleteBtn</value>
-  </data>
-  <data name="&gt;&gt;BookingDeleteBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2GradientButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;BookingDeleteBtn.Parent" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingDeleteBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="BookingCrudPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>RightToLeft</value>
-  </data>
-  <data name="BookingCrudPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 153</value>
-  </data>
-  <data name="BookingCrudPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 210</value>
-  </data>
-  <data name="BookingCrudPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Name" xml:space="preserve">
-    <value>BookingCrudPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.Parent" xml:space="preserve">
-    <value>MenuPanel</value>
-  </data>
-  <data name="&gt;&gt;BookingCrudPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="BookingBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial Rounded MT Bold, 14.25pt</value>
@@ -453,6 +312,51 @@
   <data name="&gt;&gt;BookingDeleteBtn.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="BookingCrudPanel.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>RightToLeft</value>
+  </data>
+  <data name="BookingCrudPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 153</value>
+  </data>
+  <data name="BookingCrudPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 210</value>
+  </data>
+  <data name="BookingCrudPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Name" xml:space="preserve">
+    <value>BookingCrudPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.Parent" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;BookingCrudPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MenuPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-9, 29</value>
+  </data>
+  <data name="MenuPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 800</value>
+  </data>
+  <data name="MenuPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Name" xml:space="preserve">
+    <value>MenuPanel</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="guna2BorderlessForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
@@ -526,7 +430,7 @@
     <value>210, 39</value>
   </data>
   <data name="MainBoxPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1150, 750</value>
+    <value>1150, 720</value>
   </data>
   <data name="MainBoxPanel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -543,6 +447,21 @@
   <data name="&gt;&gt;MainBoxPanel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="CLoseBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="CLoseBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="CLoseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1260, 6</value>
+  </data>
+  <data name="CLoseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="CLoseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;CLoseBtn.Name" xml:space="preserve">
     <value>CLoseBtn</value>
   </data>
@@ -555,6 +474,21 @@
   <data name="&gt;&gt;CLoseBtn.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="guna2HtmlLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 9.75pt</value>
+  </data>
+  <data name="guna2HtmlLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 10</value>
+  </data>
+  <data name="guna2HtmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="guna2HtmlLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="guna2HtmlLabel1.Text" xml:space="preserve">
+    <value>Hotel Management System</value>
+  </data>
   <data name="&gt;&gt;guna2HtmlLabel1.Name" xml:space="preserve">
     <value>guna2HtmlLabel1</value>
   </data>
@@ -566,6 +500,21 @@
   </data>
   <data name="&gt;&gt;guna2HtmlLabel1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="menuBarBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="menuBarBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="menuBarBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="menuBarBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 24</value>
+  </data>
+  <data name="menuBarBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;menuBarBtn.Name" xml:space="preserve">
     <value>menuBarBtn</value>
@@ -624,88 +573,7 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="guna2HtmlLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial Rounded MT Bold, 9.75pt</value>
-  </data>
-  <data name="guna2HtmlLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 10</value>
-  </data>
-  <data name="guna2HtmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 17</value>
-  </data>
-  <data name="guna2HtmlLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="guna2HtmlLabel1.Text" xml:space="preserve">
-    <value>Hotel Management System</value>
-  </data>
-  <data name="&gt;&gt;guna2HtmlLabel1.Name" xml:space="preserve">
-    <value>guna2HtmlLabel1</value>
-  </data>
-  <data name="&gt;&gt;guna2HtmlLabel1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2HtmlLabel, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2HtmlLabel1.Parent" xml:space="preserve">
-    <value>guna2GradientPanel1</value>
-  </data>
-  <data name="&gt;&gt;guna2HtmlLabel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <metadata name="menuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>192, 17</value>
   </metadata>
-  <data name="CLoseBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="CLoseBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="CLoseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1260, 6</value>
-  </data>
-  <data name="CLoseBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 21</value>
-  </data>
-  <data name="CLoseBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;CLoseBtn.Name" xml:space="preserve">
-    <value>CLoseBtn</value>
-  </data>
-  <data name="&gt;&gt;CLoseBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CircleButton, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;CLoseBtn.Parent" xml:space="preserve">
-    <value>guna2GradientPanel1</value>
-  </data>
-  <data name="&gt;&gt;CLoseBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="menuBarBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="menuBarBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="menuBarBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 6</value>
-  </data>
-  <data name="menuBarBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 24</value>
-  </data>
-  <data name="menuBarBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;menuBarBtn.Name" xml:space="preserve">
-    <value>menuBarBtn</value>
-  </data>
-  <data name="&gt;&gt;menuBarBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;menuBarBtn.Parent" xml:space="preserve">
-    <value>guna2GradientPanel1</value>
-  </data>
-  <data name="&gt;&gt;menuBarBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
 </root>

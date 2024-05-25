@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Xml.Linq;
 
 namespace Hostel_Management_System
 {
@@ -48,13 +50,16 @@ namespace Hostel_Management_System
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            bool success = Validations.Setting(StatusBox , StatusErrorlb);
+            bool success = Validations.User(NameBox,NameError,PasswordBox,PasswordError);
             if (success)
             {
-                MUserCRUD.EditUser(StatusBox, Role,key);
+                MUserCRUD.EditUser(NameBox,PasswordBox,StatusBox, Role,key);
                 MUserCRUD.VeiwAll(UserGridView);
             }
             StatusBox.Text = "";
+            NameBox.Text = "";
+            PasswordBox.Text = "";
+            StatusPlaceHolder.Text = "Status";
         }
 
         private void ViewAllBtn_Click(object sender, EventArgs e)
@@ -72,9 +77,14 @@ namespace Hostel_Management_System
         {
             string name = UserGridView.SelectedRows[0].Cells[0].Value.ToString();
             string password = UserGridView.SelectedRows[0].Cells[1].Value.ToString();
-            string Role = UserGridView.SelectedRows[0].Cells[2].Value.ToString();
+            string role = UserGridView.SelectedRows[0].Cells[2].Value.ToString();
             int status = (int)UserGridView.SelectedRows[0].Cells[3].Value;
-            key = MUserCRUD.FindKey(name,password,Role,status);
+            NameBox.Text = name;
+            PasswordBox.Text = password;
+            StatusBox.Text=status.ToString();
+            StatusPlaceHolder.Text = "";
+            Role.Text = role;
+            key = MUserCRUD.FindKey(name,password,role,status);
             StatusBox.Focus();
         }
 
@@ -82,6 +92,21 @@ namespace Hostel_Management_System
         {
             MUserCRUD.DeleteUser(key);
             MUserCRUD.VeiwAll(UserGridView);
+        }
+
+        private void Password_TextChanged(object sender, EventArgs e)
+        {
+            PasswordError.Text = "";
+        }
+
+        private void StatusBox_DropDown(object sender, EventArgs e)
+        {
+            StatusPlaceHolder.Text = "";
+        }
+
+        private void NameBox_TextChanged_1(object sender, EventArgs e)
+        {
+            NameError.Text = "";
         }
     }
 }

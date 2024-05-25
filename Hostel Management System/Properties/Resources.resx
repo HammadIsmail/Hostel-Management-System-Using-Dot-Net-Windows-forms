@@ -154,6 +154,9 @@
   <data name="fast-food_11065986" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fast-food_11065986.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="man-user-circle-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-user-circle-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="add-button_11519998" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-button_11519998.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,6 +184,9 @@
   <data name="Lovepik_com-401486789-lock-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lovepik_com-401486789-lock-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="magnifying-glass_49505692" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnifying-glass_49505692.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dollar_5926633" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dollar_5926633.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,8 +196,8 @@
   <data name="delete-button (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete-button (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man-user-circle-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man-user-circle-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-maximize-window-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-maximize-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-customer-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-customer-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,23 +205,17 @@
   <data name="icons8-admin-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-admin-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wage_32304352" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wage_32304352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pngwing.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngwing.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-employee-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-employee-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delete_10337552" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delete_10337552.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logout_11262058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_11262058.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="backBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add-user_9187607" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-user_9187607.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lovepik_com-401486789-lock-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lovepik_com-401486789-lock-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,8 +223,8 @@
   <data name="burger_1037762" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\burger_1037762.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="magnifying-glass_49505692" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\magnifying-glass_49505692.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_10337552" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_10337552.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-office-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-office-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,23 +235,26 @@
   <data name="magnifying-glass_49505691" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\magnifying-glass_49505691.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-maximize-window-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-maximize-window-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="wage_32304352" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wage_32304352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-menu-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-menu-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logout_11262058" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logout_11262058.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="setting_7436334" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_7436334.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add-user_9187607" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add-user_9187607.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="man-user-circle-icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-user-circle-icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-money-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-money-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="setting_7436334" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\setting_7436334.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-employee-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-employee-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wage_3230435" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wage_3230435.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,7 +268,7 @@
   <data name="icons8-menu-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-menu-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man-user-circle-icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man-user-circle-icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="man-user-circle-icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-user-circle-icon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

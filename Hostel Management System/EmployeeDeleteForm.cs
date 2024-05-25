@@ -16,6 +16,7 @@ namespace Hostel_Management_System
     public partial class EmployeeDeleteForm : Form
     {
         int key;
+        string name;
         public EmployeeDeleteForm()
         {
             InitializeComponent();
@@ -49,7 +50,7 @@ namespace Hostel_Management_System
 
         private void EmpGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            string name = EmpGridView.SelectedRows[0].Cells[0].Value.ToString();
+             name = EmpGridView.SelectedRows[0].Cells[0].Value.ToString();
             long cnic = (long)EmpGridView.SelectedRows[0].Cells[1].Value;
             long contact =(long)EmpGridView.SelectedRows[0].Cells[2].Value;
             key = MEmployeeCRUD.FindKey(name,cnic,contact);
@@ -57,7 +58,7 @@ namespace Hostel_Management_System
 
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
-            MEmployeeCRUD.DeleteEmp(key);
+            MEmployeeCRUD.DeleteEmp(key,name);
             MEmployeeCRUD.VeiwAll(EmpGridView);
 
         }

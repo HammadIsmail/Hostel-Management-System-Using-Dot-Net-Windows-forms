@@ -15,6 +15,14 @@ namespace Hostel_Management_System.Data_Layer
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
 
+        public FoodBillAddForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static void getFoodItemName(Guna2ComboBox Name)
         {
 
@@ -116,7 +124,7 @@ namespace Hostel_Management_System.Data_Layer
             SqlConnection con = new SqlConnection(connection);
             con.Open();
 
-            string query = "SELECT customer_name AS CustomerName,item_name as ItemName,item_category AS Category,item_price as Price,sale_quantity as Quantity,sale_amount as TotalBill FROM FoodSales";
+            string query = "select * from FoodBillView;";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
 
@@ -200,7 +208,8 @@ namespace Hostel_Management_System.Data_Layer
             SqlConnection con = new SqlConnection(connection);
             // open connection
             con.Open();
-            string query = $"SELECT sale_id from FoodSales where customer_name='{customer}' AND item_name='{item}' AND item_price='{price}' And sale_quantity='{quantity}';";
+            string query = $"execute FindKeyForFoodSales '{customer}','{item}','{price}','{quantity}';"
+;
             SqlCommand cmd = new SqlCommand(query, con);
             int key = (int)cmd.ExecuteScalar();
 

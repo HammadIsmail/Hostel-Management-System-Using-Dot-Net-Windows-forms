@@ -10,6 +10,14 @@ namespace Hostel_Management_System.Business_Layer
 {
     internal class EmployeeValidations
     {
+        internal Data_Layer.MEmployeeCRUD Assciation
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static bool Emp(Guna2TextBox Name, Guna2TextBox CNIC, Guna2TextBox Contact, Guna2TextBox Salary, Guna2TextBox Address, Guna2TextBox Password, Guna2HtmlLabel NameErrorlb, Guna2HtmlLabel CNICErrorlb, Guna2HtmlLabel ContactErrorlb, Guna2HtmlLabel SalaryErrorlb, Guna2HtmlLabel AddressErrorlb, Guna2HtmlLabel PasswordErrorlb)
         {
             if (string.IsNullOrEmpty(Name.Text.Trim()))

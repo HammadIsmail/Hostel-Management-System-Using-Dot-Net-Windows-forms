@@ -36,15 +36,20 @@
             this.DeleteBtn = new Guna.UI2.WinForms.Guna2Button();
             this.UserGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.SearchBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.ViewAllBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.NameErrorlb = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SearchErrorlb = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.CNICErrorlb = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.StatusBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.Role = new Guna.UI2.WinForms.Guna2ComboBox();
             this.StatusErrorlb = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.NameBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.PasswordBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.StatusBox = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.StatusPlaceHolder = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.NameError = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.PasswordError = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.SearchBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.ViewAllBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.UserGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -184,6 +189,171 @@
             this.guna2HtmlLabel1.TabIndex = 60;
             this.guna2HtmlLabel1.Text = null;
             // 
+            // NameErrorlb
+            // 
+            this.NameErrorlb.BackColor = System.Drawing.Color.Transparent;
+            this.NameErrorlb.ForeColor = System.Drawing.Color.Red;
+            this.NameErrorlb.Location = new System.Drawing.Point(60, 311);
+            this.NameErrorlb.Name = "NameErrorlb";
+            this.NameErrorlb.Size = new System.Drawing.Size(3, 2);
+            this.NameErrorlb.TabIndex = 63;
+            this.NameErrorlb.Text = null;
+            // 
+            // SearchErrorlb
+            // 
+            this.SearchErrorlb.BackColor = System.Drawing.Color.Transparent;
+            this.SearchErrorlb.ForeColor = System.Drawing.Color.Red;
+            this.SearchErrorlb.Location = new System.Drawing.Point(608, 311);
+            this.SearchErrorlb.Name = "SearchErrorlb";
+            this.SearchErrorlb.Size = new System.Drawing.Size(3, 2);
+            this.SearchErrorlb.TabIndex = 68;
+            this.SearchErrorlb.Text = null;
+            // 
+            // CNICErrorlb
+            // 
+            this.CNICErrorlb.BackColor = System.Drawing.Color.Transparent;
+            this.CNICErrorlb.ForeColor = System.Drawing.Color.Red;
+            this.CNICErrorlb.Location = new System.Drawing.Point(311, 310);
+            this.CNICErrorlb.Name = "CNICErrorlb";
+            this.CNICErrorlb.Size = new System.Drawing.Size(3, 2);
+            this.CNICErrorlb.TabIndex = 64;
+            this.CNICErrorlb.Text = null;
+            // 
+            // Role
+            // 
+            this.Role.AutoRoundedCorners = true;
+            this.Role.BackColor = System.Drawing.Color.Transparent;
+            this.Role.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
+            this.Role.BorderRadius = 17;
+            this.Role.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.Role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Role.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Role.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Role.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.Role.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Role.ItemHeight = 30;
+            this.Role.Items.AddRange(new object[] {
+            "Customer",
+            "Admin"});
+            this.Role.Location = new System.Drawing.Point(341, 377);
+            this.Role.Name = "Role";
+            this.Role.Size = new System.Drawing.Size(207, 36);
+            this.Role.StartIndex = 0;
+            this.Role.TabIndex = 69;
+            // 
+            // StatusErrorlb
+            // 
+            this.StatusErrorlb.BackColor = System.Drawing.Color.Transparent;
+            this.StatusErrorlb.ForeColor = System.Drawing.Color.Red;
+            this.StatusErrorlb.Location = new System.Drawing.Point(96, 386);
+            this.StatusErrorlb.Name = "StatusErrorlb";
+            this.StatusErrorlb.Size = new System.Drawing.Size(3, 2);
+            this.StatusErrorlb.TabIndex = 70;
+            this.StatusErrorlb.Text = null;
+            // 
+            // NameBox
+            // 
+            this.NameBox.AutoRoundedCorners = true;
+            this.NameBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
+            this.NameBox.BorderRadius = 17;
+            this.NameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NameBox.DefaultText = "";
+            this.NameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.NameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.NameBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NameBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.NameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.NameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NameBox.Location = new System.Drawing.Point(96, 311);
+            this.NameBox.Name = "NameBox";
+            this.NameBox.PasswordChar = '\0';
+            this.NameBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.NameBox.PlaceholderText = "Name";
+            this.NameBox.SelectedText = "";
+            this.NameBox.Size = new System.Drawing.Size(207, 36);
+            this.NameBox.TabIndex = 71;
+            this.NameBox.TextChanged += new System.EventHandler(this.NameBox_TextChanged_1);
+            // 
+            // PasswordBox
+            // 
+            this.PasswordBox.AutoRoundedCorners = true;
+            this.PasswordBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
+            this.PasswordBox.BorderRadius = 17;
+            this.PasswordBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PasswordBox.DefaultText = "";
+            this.PasswordBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PasswordBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PasswordBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PasswordBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PasswordBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PasswordBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PasswordBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.PasswordBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PasswordBox.Location = new System.Drawing.Point(341, 311);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.PasswordChar = '\0';
+            this.PasswordBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.PasswordBox.PlaceholderText = "Password";
+            this.PasswordBox.SelectedText = "";
+            this.PasswordBox.Size = new System.Drawing.Size(207, 36);
+            this.PasswordBox.TabIndex = 72;
+            this.PasswordBox.TextChanged += new System.EventHandler(this.Password_TextChanged);
+            // 
+            // StatusBox
+            // 
+            this.StatusBox.AutoRoundedCorners = true;
+            this.StatusBox.BackColor = System.Drawing.Color.Transparent;
+            this.StatusBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
+            this.StatusBox.BorderRadius = 17;
+            this.StatusBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.StatusBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.StatusBox.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.StatusBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.StatusBox.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.StatusBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.StatusBox.ItemHeight = 30;
+            this.StatusBox.Items.AddRange(new object[] {
+            "0",
+            "1"});
+            this.StatusBox.Location = new System.Drawing.Point(96, 377);
+            this.StatusBox.Name = "StatusBox";
+            this.StatusBox.Size = new System.Drawing.Size(207, 36);
+            this.StatusBox.TabIndex = 73;
+            this.StatusBox.DropDown += new System.EventHandler(this.StatusBox_DropDown);
+            // 
+            // StatusPlaceHolder
+            // 
+            this.StatusPlaceHolder.BackColor = System.Drawing.Color.Transparent;
+            this.StatusPlaceHolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatusPlaceHolder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.StatusPlaceHolder.Location = new System.Drawing.Point(105, 386);
+            this.StatusPlaceHolder.Name = "StatusPlaceHolder";
+            this.StatusPlaceHolder.Size = new System.Drawing.Size(37, 17);
+            this.StatusPlaceHolder.TabIndex = 74;
+            this.StatusPlaceHolder.Text = "Status";
+            // 
+            // NameError
+            // 
+            this.NameError.BackColor = System.Drawing.Color.Transparent;
+            this.NameError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameError.ForeColor = System.Drawing.Color.Red;
+            this.NameError.Location = new System.Drawing.Point(105, 353);
+            this.NameError.Name = "NameError";
+            this.NameError.Size = new System.Drawing.Size(3, 2);
+            this.NameError.TabIndex = 75;
+            // 
+            // PasswordError
+            // 
+            this.PasswordError.BackColor = System.Drawing.Color.Transparent;
+            this.PasswordError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordError.ForeColor = System.Drawing.Color.Red;
+            this.PasswordError.Location = new System.Drawing.Point(355, 354);
+            this.PasswordError.Name = "PasswordError";
+            this.PasswordError.Size = new System.Drawing.Size(3, 2);
+            this.PasswordError.TabIndex = 76;
+            // 
             // SearchBtn
             // 
             this.SearchBtn.AutoRoundedCorners = true;
@@ -246,99 +416,18 @@
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
-            // NameErrorlb
-            // 
-            this.NameErrorlb.BackColor = System.Drawing.Color.Transparent;
-            this.NameErrorlb.ForeColor = System.Drawing.Color.Red;
-            this.NameErrorlb.Location = new System.Drawing.Point(60, 311);
-            this.NameErrorlb.Name = "NameErrorlb";
-            this.NameErrorlb.Size = new System.Drawing.Size(3, 2);
-            this.NameErrorlb.TabIndex = 63;
-            this.NameErrorlb.Text = null;
-            // 
-            // SearchErrorlb
-            // 
-            this.SearchErrorlb.BackColor = System.Drawing.Color.Transparent;
-            this.SearchErrorlb.ForeColor = System.Drawing.Color.Red;
-            this.SearchErrorlb.Location = new System.Drawing.Point(608, 311);
-            this.SearchErrorlb.Name = "SearchErrorlb";
-            this.SearchErrorlb.Size = new System.Drawing.Size(3, 2);
-            this.SearchErrorlb.TabIndex = 68;
-            this.SearchErrorlb.Text = null;
-            // 
-            // CNICErrorlb
-            // 
-            this.CNICErrorlb.BackColor = System.Drawing.Color.Transparent;
-            this.CNICErrorlb.ForeColor = System.Drawing.Color.Red;
-            this.CNICErrorlb.Location = new System.Drawing.Point(311, 310);
-            this.CNICErrorlb.Name = "CNICErrorlb";
-            this.CNICErrorlb.Size = new System.Drawing.Size(3, 2);
-            this.CNICErrorlb.TabIndex = 64;
-            this.CNICErrorlb.Text = null;
-            // 
-            // StatusBox
-            // 
-            this.StatusBox.AutoRoundedCorners = true;
-            this.StatusBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
-            this.StatusBox.BorderRadius = 17;
-            this.StatusBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.StatusBox.DefaultText = "";
-            this.StatusBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.StatusBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.StatusBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.StatusBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.StatusBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.StatusBox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.StatusBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.StatusBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.StatusBox.Location = new System.Drawing.Point(84, 344);
-            this.StatusBox.Name = "StatusBox";
-            this.StatusBox.PasswordChar = '\0';
-            this.StatusBox.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.StatusBox.PlaceholderText = "Status";
-            this.StatusBox.SelectedText = "";
-            this.StatusBox.Size = new System.Drawing.Size(207, 36);
-            this.StatusBox.TabIndex = 48;
-            this.StatusBox.TextChanged += new System.EventHandler(this.NameBox_TextChanged);
-            // 
-            // Role
-            // 
-            this.Role.AutoRoundedCorners = true;
-            this.Role.BackColor = System.Drawing.Color.Transparent;
-            this.Role.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(171)))), ((int)(((byte)(209)))));
-            this.Role.BorderRadius = 17;
-            this.Role.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.Role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Role.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Role.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Role.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.Role.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Role.ItemHeight = 30;
-            this.Role.Items.AddRange(new object[] {
-            "Customer",
-            "Admin"});
-            this.Role.Location = new System.Drawing.Point(335, 344);
-            this.Role.Name = "Role";
-            this.Role.Size = new System.Drawing.Size(192, 36);
-            this.Role.StartIndex = 0;
-            this.Role.TabIndex = 69;
-            // 
-            // StatusErrorlb
-            // 
-            this.StatusErrorlb.BackColor = System.Drawing.Color.Transparent;
-            this.StatusErrorlb.ForeColor = System.Drawing.Color.Red;
-            this.StatusErrorlb.Location = new System.Drawing.Point(96, 386);
-            this.StatusErrorlb.Name = "StatusErrorlb";
-            this.StatusErrorlb.Size = new System.Drawing.Size(3, 2);
-            this.StatusErrorlb.TabIndex = 70;
-            this.StatusErrorlb.Text = null;
-            // 
             // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(1062, 634);
+            this.Controls.Add(this.PasswordError);
+            this.Controls.Add(this.NameError);
+            this.Controls.Add(this.StatusPlaceHolder);
+            this.Controls.Add(this.StatusBox);
+            this.Controls.Add(this.PasswordBox);
+            this.Controls.Add(this.NameBox);
             this.Controls.Add(this.StatusErrorlb);
             this.Controls.Add(this.Role);
             this.Controls.Add(this.SearchErrorlb);
@@ -350,7 +439,6 @@
             this.Controls.Add(this.ViewAllBtn);
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.EditBtn);
-            this.Controls.Add(this.StatusBox);
             this.Controls.Add(this.SearchBox);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -376,8 +464,13 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel NameErrorlb;
         private Guna.UI2.WinForms.Guna2HtmlLabel SearchErrorlb;
         private Guna.UI2.WinForms.Guna2HtmlLabel CNICErrorlb;
-        private Guna.UI2.WinForms.Guna2TextBox StatusBox;
         private Guna.UI2.WinForms.Guna2ComboBox Role;
         private Guna.UI2.WinForms.Guna2HtmlLabel StatusErrorlb;
+        private Guna.UI2.WinForms.Guna2TextBox NameBox;
+        private Guna.UI2.WinForms.Guna2TextBox PasswordBox;
+        private Guna.UI2.WinForms.Guna2ComboBox StatusBox;
+        private Guna.UI2.WinForms.Guna2HtmlLabel StatusPlaceHolder;
+        private Guna.UI2.WinForms.Guna2HtmlLabel NameError;
+        private Guna.UI2.WinForms.Guna2HtmlLabel PasswordError;
     }
 }

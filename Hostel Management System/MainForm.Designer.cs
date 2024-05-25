@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MenuPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.UserNamelb = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.FoodItemPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.FoodItemBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.FoodAddForm = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -62,14 +64,12 @@
             this.menuBar = new System.Windows.Forms.Timer(this.components);
             this.CheckMaximumAndMinimum = new System.Windows.Forms.Timer(this.components);
             this.MainBoxPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.UserNamelb = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.MenuPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.FoodItemPanel.SuspendLayout();
             this.EmployeeCrudPanel.SuspendLayout();
             this.BookingCrudPanel.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuPanel
@@ -89,6 +89,24 @@
             resources.ApplyResources(this.MenuPanel, "MenuPanel");
             this.MenuPanel.Name = "MenuPanel";
             this.MenuPanel.MouseLeave += new System.EventHandler(this.MenuPanel_MouseLeave);
+            // 
+            // UserNamelb
+            // 
+            this.UserNamelb.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.UserNamelb, "UserNamelb");
+            this.UserNamelb.ForeColor = System.Drawing.Color.White;
+            this.UserNamelb.Name = "UserNamelb";
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox1.Image = global::Hostel_Management_System.Properties.Resources.man_user_circle_icon;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            resources.ApplyResources(this.guna2CirclePictureBox1, "guna2CirclePictureBox1");
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.UseTransparentBackground = true;
             // 
             // FoodItemPanel
             // 
@@ -626,7 +644,6 @@
             // 
             // guna2BorderlessForm1
             // 
-            this.guna2BorderlessForm1.BorderRadius = 30;
             this.guna2BorderlessForm1.ContainerControl = this;
             this.guna2BorderlessForm1.DockIndicatorTransparencyValue = 0.6D;
             this.guna2BorderlessForm1.DragStartTransparencyValue = 1D;
@@ -651,6 +668,7 @@
             this.CLoseBtn.BackColor = System.Drawing.Color.Transparent;
             this.CLoseBtn.BackgroundImage = global::Hostel_Management_System.Properties.Resources.delete_button__2_;
             resources.ApplyResources(this.CLoseBtn, "CLoseBtn");
+            this.CLoseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CLoseBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.CLoseBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.CLoseBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -701,24 +719,6 @@
             this.MainBoxPanel.Name = "MainBoxPanel";
             this.MainBoxPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainBoxPanel_Paint);
             // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox1.Image = global::Hostel_Management_System.Properties.Resources.man_user_circle_icon;
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            resources.ApplyResources(this.guna2CirclePictureBox1, "guna2CirclePictureBox1");
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.UseTransparentBackground = true;
-            // 
-            // UserNamelb
-            // 
-            this.UserNamelb.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.UserNamelb, "UserNamelb");
-            this.UserNamelb.ForeColor = System.Drawing.Color.White;
-            this.UserNamelb.Name = "UserNamelb";
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -736,12 +736,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MenuPanel.ResumeLayout(false);
             this.MenuPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.FoodItemPanel.ResumeLayout(false);
             this.EmployeeCrudPanel.ResumeLayout(false);
             this.BookingCrudPanel.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

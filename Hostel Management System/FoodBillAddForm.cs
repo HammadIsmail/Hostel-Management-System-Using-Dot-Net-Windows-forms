@@ -23,6 +23,14 @@ namespace Hostel_Management_System
             InitializeComponent();
         }
 
+        public PrintFoodDataForm CompostIon
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         private void AddFoodItemBtn_Click(object sender, EventArgs e)
         {
 

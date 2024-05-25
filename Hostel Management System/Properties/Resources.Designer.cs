@@ -473,6 +473,16 @@ namespace Hostel_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap man_user_circle_icon3 {
+            get {
+                object obj = ResourceManager.GetObject("man-user-circle-icon3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngwing_com {
             get {
                 object obj = ResourceManager.GetObject("pngwing.com", resourceCulture);

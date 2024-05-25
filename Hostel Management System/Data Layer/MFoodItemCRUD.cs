@@ -1,5 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -14,6 +15,38 @@ namespace Hostel_Management_System.Data_Layer
     internal class MFoodItemCRUD
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
+
+        public AddFoodItemForm composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public FoodItemEditForm Compostion
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public FoodItemViewForm ComPosition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public FoodItemDeleteForm comPostion
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public static int CheckFoodItem(Guna2TextBox Name)
         {
@@ -47,7 +80,7 @@ namespace Hostel_Management_System.Data_Layer
             SqlConnection con = new SqlConnection(connection);
             con.Open();
 
-            string query = "SELECT name AS Name, category AS Category,price as Price,quatity as Quantity,total_price as TotalPrice FROM FoodItems";
+            string query = "select * from FoodItemView;";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
 
@@ -128,7 +161,7 @@ namespace Hostel_Management_System.Data_Layer
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
-            string id = $"select food_id from FoodItems where name ='{name}' AND category='{category}'";
+            string id = $"execute FindKeyForFoodItem '{name}','{category}';";
             SqlCommand checkId = new SqlCommand(id, con);
             int key = (int)checkId.ExecuteScalar();
             con.Close();

@@ -16,6 +16,14 @@ namespace Hostel_Management_System.Data_Layer
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
 
+        public RoomForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static void AddRoom(Guna2TextBox roomNo,Guna2HtmlLabel Errorlb) {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
@@ -30,6 +38,7 @@ namespace Hostel_Management_System.Data_Layer
             }
             else
             {
+                MessageBox.Show("Room Already Exists");
                 Errorlb.Text = "Already Exists";
                 Errorlb.ForeColor = Color.Red;
             }
@@ -45,7 +54,7 @@ namespace Hostel_Management_System.Data_Layer
             SqlConnection con = new SqlConnection(connection);
             con.Open();
 
-            string query = "SELECT room_no AS RoomNo, status AS RoomStatus FROM Rooms";
+            string query = "select * from RoomsView;";
             SqlCommand cmd = new SqlCommand(query, con);
             SqlDataReader reader = cmd.ExecuteReader();
 

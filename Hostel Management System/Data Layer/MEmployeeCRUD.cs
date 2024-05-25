@@ -1,5 +1,6 @@
 ﻿using Guna.UI2.WinForms;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -15,6 +16,46 @@ namespace Hostel_Management_System.Data_Layer
     internal class MEmployeeCRUD
     {
         static string connection = "Data Source=DESKTOP-0L4773Q\\SQLEXPRESS;Initial Catalog=HotelManagementSystem;Integrated Security=True;Encrypt=False;";
+
+        public EmployeeDeleteForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public AddEmployeeForm ComPosition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public EmployeeEditForm Compostion
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public EmployeeViewForm Compostiom
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public SalaryForm CompostioN
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
         public static void AddEmployee(Guna2TextBox Name, Guna2TextBox CNIC, Guna2TextBox Contact, Guna2TextBox Salary, Guna2TextBox Address, Guna2TextBox Password,Guna2ComboBox Gender, Guna2ComboBox Rank,Guna2DateTimePicker Date)
         {
@@ -97,7 +138,7 @@ namespace Hostel_Management_System.Data_Layer
             string query = "";
             con.Open();
            
-                query = $"SELECT name as Name,cnic as CNIC,contact as Contact,gender as Gender,salary as Salary,address as Address,position as Position,emp_date as DateOfJoining FROM Employee;";
+                query = $"select * from EmployeeView;";
             
          
 
@@ -137,7 +178,7 @@ namespace Hostel_Management_System.Data_Layer
             con.Close();
         }
 
-        public static void DeleteEmp(int id)
+        public static void DeleteEmp(int id,string name)
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
@@ -147,14 +188,19 @@ namespace Hostel_Management_System.Data_Layer
             string query = $"Delete from Employee where emp_id={id}";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-       
+          
+            string queryUser = $"Delete from Credentials where username='{name}'";
+            SqlCommand cmdUser = new SqlCommand(queryUser, con);
+            cmdUser.ExecuteNonQuery();
+
             con.Close();
         }
         public static int FindKey(string name, long cnic, long contact)
         {
             SqlConnection con = new SqlConnection(connection);
             con.Open();
-            string id = $"select emp_id from Employee where name ='{name}' AND cnic={cnic} AND contact='{contact}'";
+
+            string id = $"execute FindKeyForEmployee '{name}',{ cnic},{contact}";
             SqlCommand checkId = new SqlCommand(id, con);
             int key = (int)checkId.ExecuteScalar();
             con.Close();

@@ -9,6 +9,14 @@ namespace Hostel_Management_System.Business_Layer
 {
     internal class FoodBillValidations
     {
+        internal Data_Layer.FoodBillCRUD Association
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static bool FoodBill(Guna2TextBox CustomerName, Guna2TextBox Quantity, Guna2HtmlLabel CustomerNameErrorlb,Guna2HtmlLabel QuantityErrorlb)
         {
             if (string.IsNullOrEmpty(CustomerName.Text.Trim()))

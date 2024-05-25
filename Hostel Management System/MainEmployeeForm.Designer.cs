@@ -41,13 +41,13 @@
             this.BookingDeleteBtn = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.CLoseBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.menuBarBtn = new Guna.UI2.WinForms.Guna2Button();
             this.menuBar = new System.Windows.Forms.Timer(this.components);
             this.MainBoxPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.UserNamelb = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.CLoseBtn = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.menuBarBtn = new Guna.UI2.WinForms.Guna2Button();
             this.MenuPanel.SuspendLayout();
             this.BookingCrudPanel.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
@@ -278,12 +278,43 @@
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
             // 
+            // CLoseBtn
+            // 
+            this.CLoseBtn.BackColor = System.Drawing.Color.Transparent;
+            this.CLoseBtn.BackgroundImage = global::Hostel_Management_System.Properties.Resources.delete_button__2_;
+            resources.ApplyResources(this.CLoseBtn, "CLoseBtn");
+            this.CLoseBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.CLoseBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.CLoseBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.CLoseBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.CLoseBtn.FillColor = System.Drawing.Color.Empty;
+            this.CLoseBtn.ForeColor = System.Drawing.Color.White;
+            this.CLoseBtn.Name = "CLoseBtn";
+            this.CLoseBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.CLoseBtn.UseTransparentBackground = true;
+            this.CLoseBtn.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.guna2HtmlLabel1, "guna2HtmlLabel1");
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            // 
+            // menuBarBtn
+            // 
+            this.menuBarBtn.BackColor = System.Drawing.Color.Transparent;
+            this.menuBarBtn.BackgroundImage = global::Hostel_Management_System.Properties.Resources.icons8_menu_48;
+            resources.ApplyResources(this.menuBarBtn, "menuBarBtn");
+            this.menuBarBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.menuBarBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.menuBarBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.menuBarBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.menuBarBtn.FillColor = System.Drawing.Color.Empty;
+            this.menuBarBtn.ForeColor = System.Drawing.Color.White;
+            this.menuBarBtn.Name = "menuBarBtn";
+            this.menuBarBtn.UseTransparentBackground = true;
+            this.menuBarBtn.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // menuBar
             // 
@@ -315,37 +346,6 @@
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
-            // 
-            // CLoseBtn
-            // 
-            this.CLoseBtn.BackColor = System.Drawing.Color.Transparent;
-            this.CLoseBtn.BackgroundImage = global::Hostel_Management_System.Properties.Resources.delete_button__2_;
-            resources.ApplyResources(this.CLoseBtn, "CLoseBtn");
-            this.CLoseBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.CLoseBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.CLoseBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CLoseBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.CLoseBtn.FillColor = System.Drawing.Color.Empty;
-            this.CLoseBtn.ForeColor = System.Drawing.Color.White;
-            this.CLoseBtn.Name = "CLoseBtn";
-            this.CLoseBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.CLoseBtn.UseTransparentBackground = true;
-            this.CLoseBtn.Click += new System.EventHandler(this.guna2CircleButton1_Click);
-            // 
-            // menuBarBtn
-            // 
-            this.menuBarBtn.BackColor = System.Drawing.Color.Transparent;
-            this.menuBarBtn.BackgroundImage = global::Hostel_Management_System.Properties.Resources.icons8_menu_48;
-            resources.ApplyResources(this.menuBarBtn, "menuBarBtn");
-            this.menuBarBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.menuBarBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.menuBarBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.menuBarBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.menuBarBtn.FillColor = System.Drawing.Color.Empty;
-            this.menuBarBtn.ForeColor = System.Drawing.Color.White;
-            this.menuBarBtn.Name = "menuBarBtn";
-            this.menuBarBtn.UseTransparentBackground = true;
-            this.menuBarBtn.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // MainEmployeeForm
             // 

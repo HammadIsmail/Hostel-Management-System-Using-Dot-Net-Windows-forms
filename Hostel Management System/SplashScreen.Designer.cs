@@ -102,6 +102,7 @@
             // Loading
             // 
             this.Loading.Enabled = true;
+            this.Loading.Interval = 10;
             this.Loading.Tick += new System.EventHandler(this.Loading_Tick);
             // 
             // kryptonLabel1

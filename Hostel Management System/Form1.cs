@@ -22,6 +22,14 @@ namespace Hostel_Management_System
             InitializeComponent();
         }
 
+        internal MUserCRUD composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -86,6 +94,7 @@ namespace Hostel_Management_System
             {
                 string name = UserName.Text;
                 string password = Password.Text;
+           
                 SignInResult result = MUserCRUD.SignIn(name, password);
                 if (result.Count > 0 && result.IsAdmin=="Admin")
                 {

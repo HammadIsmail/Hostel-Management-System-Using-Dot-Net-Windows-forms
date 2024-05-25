@@ -17,6 +17,14 @@ namespace Hostel_Management_System.Business_Layer
         static Guna2Panel Printpanel;
         static PrintPreviewDialog PrintPreviewDialog1 = new PrintPreviewDialog();
 
+        public AddBookingForm Composition
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public static void print(Guna2Panel panel)
         {
             PrinterSettings ps = new PrinterSettings();

@@ -51,7 +51,7 @@ namespace Hostel_Management_System
             long payment = (long)BookingGridView.SelectedRows[0].Cells[4].Value;
             NameBox.Text = name;
             CNICBox.Text=cnic.ToString();
-            ContactBox.Text=contact.ToString();
+            ContactBox.Text="0"+contact.ToString();
             PaymentBox.Text=payment.ToString();
 
             key = MBookingCRUD.FindKey(name, cnic, contact);

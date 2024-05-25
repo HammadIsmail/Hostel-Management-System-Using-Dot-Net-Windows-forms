@@ -93,15 +93,20 @@ namespace Hostel_Management_System
            
             if (success)
             {
-                string name = UserName.Text;
-                string password = Password.Text;
-                MUserCRUD.SignUp(name, password);
+                bool check = Validations.ValidUserName(UserName, usernameErrorLb);
+                if (check)
+                {
+                    string name = UserName.Text;
+                    string password = Password.Text;
+                    MUserCRUD.SignUp(name, password);
 
-                MessageBox.Show("SignUp Successful ", "SAVED", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide();
-                LoginForm LoginForm = new LoginForm();
-                LoginForm.ShowDialog();
-                this.Close();
+                //    MessageBox.Show("SignUp Successful ", "SAVED", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide();
+                    LoginForm LoginForm = new LoginForm();
+                    LoginForm.ShowDialog();
+                    this.Close();
+                }
+           
             }
         }
 

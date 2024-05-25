@@ -53,7 +53,7 @@ namespace Hostel_Management_System
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            MenuBar = !MenuBar;
+          //  MenuBar = !MenuBar;
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
@@ -65,51 +65,51 @@ namespace Hostel_Management_System
         {
          
 
-            if (MenuBar)
-            {
-                if (MenuPanel.Width<=208)
-                {
-                    MenuPanel.Width += 10;
-                }
-                if (DashBoardBtn.Width<=170)
-                {
-                    DashBoardBtn.Width += 10;
-                    BookingBtn.Width += 10;
+            //if (MenuBar)
+            //{
+            //    if (MenuPanel.Width<=208)
+            //    {
+            //        MenuPanel.Width += 10;
+            //    }
+            //    if (DashBoardBtn.Width<=170)
+            //    {
+            //        DashBoardBtn.Width += 10;
+            //        BookingBtn.Width += 10;
 
-                }
-                if (DashBoardBtn.Width == 170)
-                {
-                    BookingBtn.Left += 5;
-                    BookingBtn.Text = "Add Users   ";
+            //    }
+            //    if (DashBoardBtn.Width == 170)
+            //    {
+            //        BookingBtn.Left += 5;
+            //        BookingBtn.Text = "Add Users   ";
 
-                    DashBoardBtn.Text = "Dashboard";
-                    DashBoardBtn.Left += 5;
+            //        DashBoardBtn.Text = "Dashboard";
+            //        DashBoardBtn.Left += 5;
 
-                }
-            }
-            else
-            {
+            //    }
+            //}
+            //else
+            //{
 
-                if (MenuPanel.Width >= 78)
-                {
-                    MenuPanel.Width -= 10;
-                }
-                if (DashBoardBtn.Width >= 60)
-                {
-                    DashBoardBtn.Width -= 10;
-                    BookingBtn.Width -= 10;
+            //    if (MenuPanel.Width >= 78)
+            //    {
+            //        MenuPanel.Width -= 10;
+            //    }
+            //    if (DashBoardBtn.Width >= 60)
+            //    {
+            //        DashBoardBtn.Width -= 10;
+            //        BookingBtn.Width -= 10;
 
-                }
-                if (DashBoardBtn.Width ==140)
-                {
-                    DashBoardBtn.Text = "";
-                    DashBoardBtn.Left -= 5;
-                    BookingBtn.Left -= 5;
-                    BookingBtn.Text = "";
-                }
+            //    }
+            //    if (DashBoardBtn.Width ==140)
+            //    {
+            //        DashBoardBtn.Text = "";
+            //        DashBoardBtn.Left -= 5;
+            //        BookingBtn.Left -= 5;
+            //        BookingBtn.Text = "";
+            //    }
 
               
-            }
+            //}
         }
 
         private void CheckMaximumAndMinimum_Tick(object sender, EventArgs e)
